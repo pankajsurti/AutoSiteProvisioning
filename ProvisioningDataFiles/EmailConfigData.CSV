@@ -1,0 +1,16 @@
+Title,Body,Subject
+NEW,"
+Your Site request was received. Your site is currently under review for approval.
+Once your site is approved you will be notified through email and receive a link to your site when it is created",Site Request was received
+APPROVED,"
+Your Site request was approved.
+You will be notified once your site is created and will receive a link to your new site.",Site Request was Approved
+REJECTED,"
+Your Site Request was rejected. Please see Rejector's comments below.
+Request site again at dvagov.sharepoint.com/sites/siteprovisioning with remediated items.",Site Request was Rejected
+COMPLETED,"
+Your Site request was completed.
+Visit your site at:",Site is Created
+ERROR,"
+Your Site request has failed.
+Check the log files created during the specified time frame to view the errors and remediate.",ERROR: Site request has failed
