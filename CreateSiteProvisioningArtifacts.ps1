@@ -32,6 +32,6 @@ $connSitePvr = Connect-PnPOnline -Credentials $userCrendential -Url $webUrl  -Re
 $localScriptRoot = $PSScriptRoot
 
 # create content type
-$ctFilePath = ($localScriptRoot) + "\ProvisiningDataFiles\SiteProvisioningArtifacts.xml";
+$ctFilePath = ($localScriptRoot) + "\ProvisioningDataFiles\SiteProvisioningArtifacts.xml";
 Apply-PnPProvisioningTemplate -Path $ctFilePath -Connection $connSitePvr
 write-host "Created all artifacts... " 
