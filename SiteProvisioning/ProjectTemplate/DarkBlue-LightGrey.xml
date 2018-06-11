@@ -1,0 +1,14 @@
+<pnp:Provisioning
+    xmlns:pnp="http://schemas.dev.office.com/PnP/2018/01/ProvisioningSchema">
+    <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.24.1803.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+    <pnp:Templates ID="CONTAINER-TEMPLATE-6E9F34E6920844DA9F01A435F55AB6A6">
+        <pnp:ProvisioningTemplate ID="TEMPLATE-6E9F34E6920844DA9F01A435F55AB6A6" Version="1" BaseSiteTemplate="PROJECTSITE#0" Scope="RootSite">
+            <pnp:WebSettings RequestAccessEmail="someone@example.com" NoCrawl="false" WelcomePage="" SiteLogo="{site}/SiteAssets/BEAR_transparent.png" AlternateCSS="" MasterPageUrl="{masterpagecatalog}/seattle.master" CustomMasterPageUrl="{masterpagecatalog}/seattle.master" />
+            <pnp:Files>
+                <pnp:File Src="ThemeAssets/DarkBlue-LightGrey.spcolor" Folder="{themecatalog}/15" Overwrite="true" Level="Draft" />
+                <pnp:File Src="SiteAssets/BEAR_transparent.png" Folder="SiteAssets" Overwrite="true" Level="Draft" />
+            </pnp:Files>
+            <pnp:ComposedLook Name="DarkBlue-LightGrey" ColorFile="{themecatalog}/15/DarkBlue-LightGrey.spcolor" FontFile="" BackgroundFile="" Version="0" />
+        </pnp:ProvisioningTemplate>
+    </pnp:Templates>
+</pnp:Provisioning>
