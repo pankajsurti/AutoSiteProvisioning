@@ -11,7 +11,7 @@ $connSitePvr = Connect-PnPOnline -Credentials $userCrendential -Url $webUrl  -Re
 $localScriptRoot = $PSScriptRoot
 
 # create content type
-$csvFile = ($localScriptRoot) + "\ProvisiningDataFiles\EmailConfigData.CSV";
+$csvFile = ($localScriptRoot) + "\ProvisioningDataFiles\EmailConfigData.CSV";
 
 # CSV path/File name
 $contents = Import-Csv $csvFile
@@ -27,7 +27,7 @@ foreach ($row in $contents) {
 }
 
 # create content type
-$csvFile = ($localScriptRoot) + "\ProvisiningDataFiles\SiteProvisioningConfigData.CSV";
+$csvFile = ($localScriptRoot) + "\ProvisioningDataFiles\SiteProvisioningConfigData.CSV";
 
 # CSV path/File name
 $contents = Import-Csv $csvFile
