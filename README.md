@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Welcome to Auto Site Provisioning Solution for SharePoint Online (SPO)
 
-You can use the [editor on GitHub](https://github.com/pankajsurti/AutoSitePrv/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A Site Provisioning solution is a number one asks from the customer. Multiple variations of such solution can be implemented based on the customer needs. With no surprise, the first request for our customer was to track the sites requested, approval workflow of the request, automation of the creation of the site, applying unique template, automating governance, controlling the quotas based on the requestor need, etc. We have looked in to [PnP Partner Pack solution](https://github.com/SharePoint/PnP-Partner-Pack) but that was not meeting the needs of the customer. We have looked at other approach to deliver the customer requirement using very simple OOTB components with no code solution. Our customer did not have Flow and PowerApps in their tenant. Such limitation made us create this solution with SPD workflow which we think can be useful to your customer now or in the future.  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Prerequesits
 
-### Markdown
+- [PnP PowerShell Module](https://github.com/SharePoint/PnP-PowerShell)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Components for the solution
+- Three Lists
+- Two SharePoint Workflows 
+- One PnP PowerShell Script
+
+### Deployement steps
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+1. Clone this repo to your local drive.
 
-- Bulleted
-- List
+2. Create a site in your tenant as following.
+https://{your_tenant_name}.sharepoint.com/sites/siteprovisioning/
 
-1. Numbered
-2. List
+3. Run CreateSiteProvisioningArtifacts.ps1 PowerShell 
 
-**Bold** and _Italic_ and `Code` text
+4. Run EmailConfigDataImport.ps1
 
-[Link](url) and ![Image](src)
+5. In the list update the values as needed.
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pankajsurti/AutoSitePrv/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
