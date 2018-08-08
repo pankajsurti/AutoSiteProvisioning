@@ -27,4 +27,4 @@ https://{your_tenant_name}.sharepoint.com/sites/siteprovisioning/
 5. In the list update the values as needed.
 ```
 
-
+>Refer to O356SiteProvisioningDeploymentGuide.docx document for inside details.
