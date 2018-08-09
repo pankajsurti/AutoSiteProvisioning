@@ -11,7 +11,7 @@ A Site Provisioning solution is a number one asks from the customer. Multiple va
 - Two SharePoint Workflows 
 - One PnP PowerShell Script
 
-### Deployement steps
+### Deployment steps
 
 ```markdown
 
